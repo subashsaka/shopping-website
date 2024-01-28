@@ -1,0 +1,110 @@
+body{
+    background-color: yellow;
+}
+.headimage{
+height: 75px;
+}
+p{
+    text-align: center;
+}
+
+.header{
+    display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  justify-content: space-between; 
+  /*background-color: lightyellow;*/
+}
+.compname{
+    color: rgb(13, 13, 13);
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    gap :4em;
+
+}
+
+.shopbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.loginbutton{
+    background-color: rgb(176, 34, 34);
+    color: yellow;
+}
+.h1reviewe{
+    text-align: center;
+    color: greenyellow;
+    background-color: black;
+    padding: 10px;
+    margin:70px;
+}
+.container2{
+display: flex;
+}
+.rewierphoto{
+    height:79px;
+}
+.container3{
+    display: flex;
+}
+.container4{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.socialmedia{
+    padding:5px;
+    background-color: black;
+    text-align: center;
+    color: darkgray;
+    margin-top: 50px;
+}
+.item_1{
+    border: 5px black solid;
+    box-shadow: rgb(112, 54, 162);
+    border-radius: 10px;
+    background-color: aqua;
+}
+.item_2{
+    border: 5px black solid;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.item_3{
+    border: 5px black solid;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.item_4{
+    border: 5px black solid;
+    border-radius: 10px;
+    
+    background-color: aqua;
+}
+.item_5{
+    border: 5px black solid;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.item_6{
+    border: 5px black solid;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.item_7{
+    border: 5px black solid;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.item_8{
+    border: 5px black solid;
+    border-radius: 10px;
+    background-color: aqua;
+    width: 1000px;
+}
